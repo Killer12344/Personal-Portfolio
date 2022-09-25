@@ -10,7 +10,7 @@ $(document).ready(function () {
 
   $(".btnClose").click(function () {
     $(".navbar-nav").animate({
-      top : "-450px"
+      top : "-1000px"
     },1000);
   });
 
@@ -116,7 +116,7 @@ scroll();
       numeratio  : true,                               // default: false
       infinigall : true,                               // default: false
       share      : ['facebook', 'twitter', 'download'] // default: []
-    }); 
+    });
 
     //  animate
 
@@ -135,7 +135,7 @@ scroll();
   // Particles bg
 
     particlesJS('particles-js',
-  
+
     {
       "particles": {
         "number": {
@@ -242,7 +242,7 @@ scroll();
         }
       },
       "retina_detect": true,  }
-  
+
   );
 
         //  loading
@@ -250,7 +250,7 @@ scroll();
       $(window).on("load", function () {
         $(".loading").fadeOut(500);
         $(this).remove();
-      });    
+      });
 
     $('#jq').LineProgressbar({
       percentage:70,

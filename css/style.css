@@ -36,7 +36,7 @@ html{
 .header{
     position: absolute;
     top: 0%;
-    z-index: 100;
+    z-index: 1000;
 }
 
 .navbar{
@@ -161,7 +161,7 @@ html{
 .cardStyle:hover .content{
     visibility: visible;
     left: 0%;
-    opacity: 1; 
+    opacity: 1;
 }
 
 .percentCount{
@@ -482,7 +482,7 @@ html{
     .list-style::after{
         right: 97% !important;
     }
-    
+
     .list-style1::before{
         right: 90% !important;
     }
@@ -490,7 +490,7 @@ html{
     .list-style-other::after{
         right: 97% !important;
     }
-    
+
     .list-style-other::before{
         right: 90% !important;
     }
@@ -499,7 +499,7 @@ html{
     }
     .navbar-nav{
         position: absolute;
-        top: -450px;
+        top: -1000px;
         left: 0;
         background: var(--bgcolor);
         width: 100%;
@@ -517,11 +517,11 @@ html{
         right: 5%;
         top: 3%;
     }
-    
+
 .myvideo video{
     max-width: 350px;
     outline: none;
-    }    
+    }
 }
 
 @media screen and (max-width : 768px) {
@@ -543,7 +543,7 @@ html{
     .list-style::before{
         right: 91% !important;
     }
-    
+
     .list-style1::before{
         right: 91% !important;
     }
@@ -555,7 +555,7 @@ html{
     .list-style-other::before{
         right: 91%;
     }
-    
+
     .list-style2::before{
         right: 91%;
     }
@@ -565,7 +565,7 @@ html{
     }
     .navbar-nav{
         position: absolute;
-        top: -450px;
+        top: -1000px;
         left: 0;
         background: var(--bgcolor);
         width: 100%;
@@ -591,7 +591,7 @@ html{
         bottom: 0px;
         right: 50%;
         background-color: #4A5FC1;
-    }    
+    }
 }
 
 
@@ -599,12 +599,41 @@ html{
     .list-style::before{
         right: 93%;
     }
-    
+
     .list-style1::before{
         right: 93%;
     }
 
     .list-style::after{
         right: 100%;
+    }
+    .navbar-nav{
+        position: absolute;
+        top: -1000px;
+        left: 0;
+        background: var(--bgcolor);
+        width: 100%;
+    }
+
+    .nav-item,.nav-link{
+        text-align: start;
+        width: 70px;
+        margin: 10px 15px;
+    }
+
+    .activebtn::before{
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 10%;
+        bottom: 0px;
+        right: 50%;
+        background-color: #4A5FC1;
+    }
+    .btnClose{
+        width: 50px;
+        position: absolute;
+        right: 5%;
+        top: 3%;
     }
 }
